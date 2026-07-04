@@ -1,0 +1,31 @@
+body {
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    text-align: center;
+    padding: 200px;
+     background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url("img.jpg");
+    background-size: cover;
+}
+#title {
+    color: rgb(17, 125, 161);
+}    
+h1 {
+    color: rgb(17, 125, 161);
+    font-size: 40px;
+}
+
+#guess {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color:green;
+    color: rgb(141, 234, 65);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
